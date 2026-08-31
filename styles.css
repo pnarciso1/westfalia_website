@@ -235,20 +235,6 @@ a {
   max-width: 32em;
 }
 
-.product-westy h2 {
-  display: inline;
-  margin: 18px 0 0;
-  font-size: 1.28rem;
-}
-
-.product-westy h2::after {
-  content: ", ";
-}
-
-.product-westy .westy-copy {
-  display: inline;
-  font-size: 1.02rem;
-}
 
 /* Team */
 .team {
@@ -452,15 +438,6 @@ a {
     font-size: 0.98rem;
   }
 
-  .product-westy h2::after {
-    content: ", ";
-    font-weight: 400;
-  }
-
-  .product-westy h2 {
-    font-family: var(--serif);
-    font-weight: 500;
-  }
 
   .team {
     padding: 8px 0 0;
