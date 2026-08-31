@@ -53,6 +53,9 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
   background: var(--forest);
   color: #fff;
   text-decoration: none;
@@ -97,11 +100,20 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
+  position: relative;
 }
 
 .lockup {
   height: 52px;
   width: auto;
+  max-width: min(240px, calc(100% - 148px));
+  flex: 0 1 auto;
+  position: relative;
+  z-index: 0;
+}
+
+.header-inner .btn {
+  flex-shrink: 0;
 }
 
 /* Hero */
@@ -323,6 +335,7 @@ a {
 
   .lockup {
     height: 40px;
+    max-width: min(180px, calc(100% - 120px));
   }
 
   .header-inner .btn {
