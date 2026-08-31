@@ -106,7 +106,7 @@ a {
 
 /* Hero */
 .hero {
-  padding: 56px 0 72px;
+  padding: 64px 0 88px;
 }
 
 .hero-grid {
@@ -196,7 +196,7 @@ a {
 }
 
 .product {
-  padding: 48px 36px 56px 0;
+  padding: 52px 36px 64px 0;
 }
 
 .product + .product {
@@ -225,7 +225,8 @@ a {
 
 .product-westy h2 {
   display: inline;
-  margin-right: 0;
+  margin: 18px 0 0;
+  font-size: 1.28rem;
 }
 
 .product-westy h2::after {
@@ -234,6 +235,7 @@ a {
 
 .product-westy .westy-copy {
   display: inline;
+  font-size: 1.02rem;
 }
 
 /* Team */
