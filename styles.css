@@ -104,12 +104,13 @@ a {
 }
 
 .lockup {
-  height: 52px;
+  height: 76px;
   width: auto;
-  max-width: min(240px, calc(100% - 148px));
+  max-width: min(320px, calc(100% - 148px));
   flex: 0 1 auto;
   position: relative;
   z-index: 0;
+  background: transparent;
 }
 
 .header-inner .btn {
@@ -319,8 +320,9 @@ a {
   }
 
   .lockup {
-    height: 40px;
-    max-width: min(180px, calc(100% - 120px));
+    height: 56px;
+    max-width: min(240px, calc(100% - 120px));
+    background: transparent;
   }
 
   .header-inner .btn {
